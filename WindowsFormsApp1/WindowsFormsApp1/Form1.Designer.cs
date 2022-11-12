@@ -31,6 +31,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -50,7 +51,12 @@
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 1;
             this.button2.Text = "已修复bug";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button3.Location = new System.Drawing.Point(456, 239);
+            this.button3.Name = "button2";
+            this.button3.Size = new System.Drawing.Size(122, 23);
+            this.button3.TabIndex = 1;
+            this.button3.Text = "开发商城100%";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -59,6 +65,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.button3);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
