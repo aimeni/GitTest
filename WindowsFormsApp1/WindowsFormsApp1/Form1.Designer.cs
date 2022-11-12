@@ -47,9 +47,9 @@
             // 
             this.button2.Location = new System.Drawing.Point(456, 239);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(122, 23);
             this.button2.TabIndex = 1;
-            this.button2.Text = "开发商城";
+            this.button2.Text = "开发商城100%";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // Form1
