@@ -35,6 +35,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -88,11 +89,20 @@
             this.button6.TabIndex = 4;
             this.button6.Text = "回家以后从git上pull下来的第二天 功能开发完毕";
             // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(567, 225);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(210, 51);
+            this.button7.TabIndex = 5;
+            this.button7.Text = "在公司又开发了一个新功能50% 忘push了";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -114,6 +124,7 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
     }
 }
 
