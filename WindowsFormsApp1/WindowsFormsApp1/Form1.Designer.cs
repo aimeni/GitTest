@@ -35,6 +35,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.btnIsBusy = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -88,11 +89,20 @@
             this.button6.TabIndex = 4;
             this.button6.Text = "回家以后从git上pull下来的第二天 功能开发完毕";
             // 
+            // btnIsBusy
+            // 
+            this.btnIsBusy.Location = new System.Drawing.Point(567, 263);
+            this.btnIsBusy.Name = "btnIsBusy";
+            this.btnIsBusy.Size = new System.Drawing.Size(210, 51);
+            this.btnIsBusy.TabIndex = 5;
+            this.btnIsBusy.Text = "那回家也不能闲着啊  开发其他功能50%";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnIsBusy);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -114,6 +124,7 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnIsBusy;
     }
 }
 
